@@ -3,6 +3,8 @@
 A Retrieval-Augmented Generation (RAG) chatbot prototype for answering questions from user-provided documents. The project demonstrates the foundation of a document-question-answering system: documents are ingested, split into text chunks, converted into semantic embeddings, and prepared for vector-based retrieval through a FastAPI service.
 
 > **Project status:** This repository is an actively structured prototype. Document ingestion and embedding generation are partially implemented, while the complete retrieval pipeline, production vector-store integration, chat endpoint, and conversation history still need to be completed.
+>
+> 
 #DATA
 
 > https://drive.google.com/drive/folders/1I5DNqdfrth52YsX9Jw01p2Zgj3u66pek?usp=sharing

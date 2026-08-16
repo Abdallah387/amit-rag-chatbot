@@ -1,0 +1,13 @@
+# load emvedding model
+def _load_model_and_tokenizer():
+    """Load the model and tokenizer once and cache them globally."""
+    global _model, _tokenizer
+    
+    if _model is None or _tokenizer is None:
+        logger.info("Loading HuggingFace model and tokenizer...")
+        _model = AutoModel.from_pretrained("BAAI/bge-base-en")        _tokenizer = AutoTokenizer.from_pretrained("BAAI/bge-base-en")
+
+        logger.info("HuggingFace model and tokenizer loaded successfully")
+    
+    return _model, _tokenizer
+

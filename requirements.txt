@@ -1,0 +1,9 @@
+# Add Python dependencies here
+fastapi
+uvicorn
+psycopg[binary]
+pydantic
+httpx
+numpy
+openai
+python-dotenv
